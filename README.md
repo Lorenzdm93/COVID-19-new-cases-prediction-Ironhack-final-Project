@@ -53,7 +53,7 @@ I furtherly run out-of-sample prediction inferring future values of X features a
 It is indeed possible to get good prediction with ML on this topic and vaccination is usually the best predictor even in its early stages. This is good news because it implies that spread of virus is indeed directly dependant on the level of vaccination of the population hence manageble through it.
 
 ## Future Work
--Optimized out-of-sample predictions already. I had to infer future measures of my Xs so I only performed that on one country I was confident predicting rate of vaccination and measures adopted (Italy).
+-Already optimized in-Sample predictions. Next doing it on out-of-sample: I had to infer future measures of my Xs so I only performed that on one country I was confident predicting rate of vaccination and measures adopted (Italy).
 -Automatically updating the dataset in line with the github repo and get daily prediction, also backtesting previous predictions over time.
 -Integrate seasonal component If 2 years of data will be available.
 
