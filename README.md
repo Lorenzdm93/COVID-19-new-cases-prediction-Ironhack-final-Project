@@ -1,4 +1,4 @@
-# COVID-19-new-cases-prediction---Ironhack-final-Project
+# Ironhack-final-Project
 
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
