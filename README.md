@@ -14,7 +14,6 @@
 - [Model Training and Evaluation](#model-training-and-evaluation)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
-- [Workflow](#workflow)
 - [Organization](#organization)
 - [Links](#links)
 
@@ -23,14 +22,16 @@ I want to use machine learning to predict future number of covid cases using fea
 I will use one of the model from the SARIMAX family in order to predict a time series. I will automate and run my function on a dataframe containing all the countries in the world. (#project-description)
 
 ## Hypotheses / Questions
-It is possible to use ML to predict future covid cases? how relevant is the vaccination in its early stages in predicting this?(#hypotheses-questions)
+It is possible to use ML to predict future covid cases? how relevant is the vaccination in its early stages in predicting this?
+Null Hypothesis: Vaccination has no effect in helping new cases prediction
+Alternate Hypothesis: Vaccination does have an effect (#hypotheses-questions)
 
 ## Dataset
 -'Our World in data' for multiple .csv files directly downloaded from the website
--Weather dataset from Kaggle
+- Weather dataset from Kaggle
 
 ## Cleaning
-I did not have NaNs because the dataset is curated and updated daily but I had to deal with high stack on 0 which is my case where to be left there as indicate progression of certain features over time
+I did not have NaNs because the dataset is curated and updated daily but I had to deal with high stack on 0 which is my case where to be left as they were, as they indicate progression of certain features over time.
 
 ## Analysis
 data cleaning,
@@ -39,20 +40,14 @@ feature engineering,
 scaling and transforming,
 building the model,
 validation,
-automation
+automation.
 
 ## Model Training and Evaluation
-ARIMAX model has been trained for each country and it prints out a summary in which you can evaluate the performance of your model. I have additionally shown the distribution of my rmse. Having some bad prediction and therefore some high rmse drives my average rmse up but plotting a distribution or all the rmse shows that most of them are stacked near the 0. Alternative validation procedure would be the K-walk for time series.
+ARIMAX model has been trained for each country and it outputs a summary in which you can evaluate the performance of your model. I have additionally shown the distribution of my rmse. Some bad prediction drove average rmse upwards but plotting a distribution of all the rmse shows that most of them are stacked near the 0. Alternative validation procedure would be the K-walk for time series.
 
 ## Results
-![alt text](https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing)
-https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing
-<img src="https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing" alt="Italy" />
-<img src="https://drive.google.com/file/d/1HnwH_xjjqhXTCgndi9RnmVBX3e-zM5n7/view?usp=sharing" alt="Czechia" width="100"/>
-<img src="https://drive.google.com/file/d/1aJuh1crbWRoAWgvHoHL5zXEhXF3xAczt/view?usp=sharing" alt="Dominican Republic" width="100"/>
-<img src="https://drive.google.com/file/d/1FwESxw-V0pPSkwDCDdX3OuAXN4t55Viy/view?usp=sharing" alt="Hungary" width="100"/>
-<img src="https://drive.google.com/file/d/1IwOc-92gep0S2u3w8iBRxmwKwQxBWh8U/view?usp=sharing" alt="Germany" width="100"/>
-<img src="https://drive.google.com/file/d/1ZqwXBG03k4j8gRTnJ587EE4ZP1gIy7y-/view?usp=sharing" alt="The Netherlands" width="100"/>
+I am quite satisfied with the In-Sample predictions, some countries are really nicely predicted and some trend inversion can be observed, too.
+I furtherly run out-of-sample prediction inferring future values of X features and got results for Italy in the next 5 months. If preediction is accurate cases will rise regardless of weather getting hotter and less humid and vaccination rate staying constant.
 
 ## Conclusion
 It is indeed possible to get good prediction with ML on this topic and vaccination is usually the best predictor even in its early stages. This is good news because it implies that spread of virus is indeed directly dependant on the level of vaccination of the population hence manageble through it.
@@ -62,16 +57,10 @@ It is indeed possible to get good prediction with ML on this topic and vaccinati
 -Automatically updating the dataset in line with the github repo and get daily prediction, also backtesting previous predictions over time.
 -Integrate seasonal component If 2 years of data will be available.
 
-## Workflow
-Data collection and cleaning, EDA, feature engineering, ML building and evaluation.
-
 ## Organization
 
 
 ## Links
-
-
-
 [Repository](https://github.com/)  
 [Slides](https://slides.com/)  
 [Trello](https://trello.com/en)  
