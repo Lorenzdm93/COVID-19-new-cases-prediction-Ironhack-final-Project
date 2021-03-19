@@ -23,8 +23,8 @@ I will use one of the model from the SARIMAX family in order to predict a time s
 
 ## Hypotheses / Questions
 It is possible to use ML to predict future covid cases? how relevant is the vaccination in its early stages in predicting this?
-Null Hypothesis: Vaccination has no effect in helping new cases prediction
-Alternate Hypothesis: Vaccination does have an effect (#hypotheses-questions)
+- Null Hypothesis: Vaccination has no effect in helping new cases prediction.
+- Alternate Hypothesis: Vaccination does have an effect. (#hypotheses-questions)
 
 ## Dataset
 -'Our World in data' for multiple .csv files directly downloaded from the website
@@ -63,4 +63,3 @@ It is indeed possible to get good prediction with ML on this topic and vaccinati
 ## Links
 [Repository](https://github.com/)  
 [Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
