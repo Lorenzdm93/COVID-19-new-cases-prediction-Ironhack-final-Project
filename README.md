@@ -46,7 +46,7 @@ ARIMAX model has been trained for each country and it prints out a summary in wh
 
 ## Results
 https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing
-<img src="https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing" alt="Italy" width="100"/>
+<img src="https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing" alt="Italy" />
 <img src="https://drive.google.com/file/d/1HnwH_xjjqhXTCgndi9RnmVBX3e-zM5n7/view?usp=sharing" alt="Czechia" width="100"/>
 <img src="https://drive.google.com/file/d/1aJuh1crbWRoAWgvHoHL5zXEhXF3xAczt/view?usp=sharing" alt="Dominican Republic" width="100"/>
 <img src="https://drive.google.com/file/d/1FwESxw-V0pPSkwDCDdX3OuAXN4t55Viy/view?usp=sharing" alt="Hungary" width="100"/>
