@@ -46,7 +46,7 @@ automation.
 ARIMAX model has been trained for each country and it outputs a summary in which you can evaluate the performance of your model. I have additionally shown the distribution of my rmse. Some bad prediction drove average rmse upwards but plotting a distribution of all the rmse shows that most of them are stacked near the 0. Alternative validation procedure would be the K-walk for time series.
 
 ## Results
-I am quite satisfied with the In-Sample predictions, some countries are really nicely predicted and some trend inversion can be observed, too.
+I am quite satisfied with the In-Sample predictions, some countries are really nicely predicted and some trend inversions can be observed, too.
 I furtherly run out-of-sample prediction inferring future values of X features and got results for Italy in the next 5 months. If preediction is accurate cases will rise regardless of weather getting hotter and less humid and vaccination rate staying constant.
 
 ## Conclusion
