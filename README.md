@@ -45,6 +45,7 @@ automation
 ARIMAX model has been trained for each country and it prints out a summary in which you can evaluate the performance of your model. I have additionally shown the distribution of my rmse. Having some bad prediction and therefore some high rmse drives my average rmse up but plotting a distribution or all the rmse shows that most of them are stacked near the 0. Alternative validation procedure would be the K-walk for time series.
 
 ## Results
+![alt text](https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing)
 https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing
 <img src="https://drive.google.com/file/d/12PsvVeCuhfMFqWikHWzahDFdm8HnigK2/view?usp=sharing" alt="Italy" />
 <img src="https://drive.google.com/file/d/1HnwH_xjjqhXTCgndi9RnmVBX3e-zM5n7/view?usp=sharing" alt="Czechia" width="100"/>
